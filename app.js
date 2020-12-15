@@ -5,7 +5,7 @@ const subRoute = require("./router/subscribe");
 
 const app = express();
 
-const port = 3000;
+const port = 5050;
 
 app.set("view engine", "ejs");
 app.set("views", "views");
