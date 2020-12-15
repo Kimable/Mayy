@@ -1,0 +1,255 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 2.8rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+p {
+  font-size: 1.15rem;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+ol,
+ul {
+  font-size: 1.15rem;
+}
+/* Fontawesome icons style */
+/* .fontawesome-icons {
+  font-size: 20px;
+} */
+.fontawesome-icons a {
+  color: white;
+  font-size: 21px;
+  padding: 0 5px;
+}
+.sidenav a {
+  color: aliceblue !important;
+  font-size: 1.2rem !important;
+}
+.hero-content {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/slider2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-container,
+.intro-content,
+.expect {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro-content {
+  padding: 50px 0;
+}
+.intro-content .left-col,
+.hero-container .left-col {
+  flex-basis: 60%;
+}
+.intro-content .right-col,
+.hero-container .right-col {
+  flex-basis: 38%;
+}
+.expect .left-col {
+  flex-basis: 35%;
+}
+.expect .right-col {
+  flex-basis: 60%;
+}
+.expect li,
+.about-section-3 li {
+  list-style: disc !important;
+  padding: 3px 0;
+}
+.testimonial {
+  padding: 50px 0;
+  background-color: antiquewhite;
+}
+.testimonial img {
+  width: 150px;
+  height: auto;
+}
+.testimonial {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url("../img/girl-online-class.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+.services {
+  padding: 0 0 40px 0;
+}
+.card p {
+  font-size: 1rem;
+}
+/* About us Page */
+.about-title {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.1)),
+    url("../img/Mom-child-happpy.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+.about-content {
+  padding: 40px 0 50px 0;
+  /* display: flex;
+  align-items: center; */
+}
+.about-section-3,
+.about-section-2 {
+  padding: 0 0 50px 0;
+}
+.about-section-2 .container,
+.about-section-3 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-section-2 .left-col {
+  flex-basis: 40%;
+}
+.about-section-2 .right-col {
+  flex-basis: 55%;
+}
+.about-section-3 .right-col {
+  flex-basis: 40%;
+}
+.about-section-3 .left-col {
+  flex-basis: 55%;
+}
+.about-section-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.84)),
+    url("../img/group-discussion-min.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+}
+.about-section-4 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-section-4 .right-col {
+  flex-basis: 70%;
+}
+.about-section-4 .left-col {
+  flex-basis: 25%;
+}
+/* End of About Page */
+/* Start of Contact page */
+.contact-sec-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/picnic.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+.contact-form {
+  padding: 50px 100px;
+}
+
+/* End of contact page styles */
+
+/* Start of Programming page */
+.programming-sec-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/kid-coding.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+/* Pricing Page */
+.pricing-sec-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/graduating-girl-in-red-gown.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Start of Tuition page */
+.tuition-sec-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/online-class.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+.general-sec-2 {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+.curriculum img {
+  width: 200px;
+  height: 150px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 900px) {
+  .hero-content {
+    height: 100%;
+  }
+  .hero-container,
+  .intro-content,
+  .about-section-2 .container,
+  .general-sec-2 {
+    flex-direction: column;
+  }
+  .hero-container h1 {
+    font-size: 2.2rem;
+  }
+  .about-section-3 .container {
+    flex-direction: column-reverse;
+  }
+  .about-section-4 .container {
+    flex-direction: column;
+  }
+  .contact-form {
+    padding: 50px 0;
+  }
+
+  .right-col img {
+    height: auto;
+  }
+  .expect {
+    flex-direction: column-reverse;
+  }
+}
